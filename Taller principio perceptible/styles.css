@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 154px;
+    height: 216px;
+    border: 2px solid #05314F;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #05314F;
+    text-align: center;
+
+    padding: 10px;
+}
+
+th{
+    color: #05314F;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #BDD3E2;
+}
+
+thead{
+    background-color: #BDD3E2;
+}
+
+p{
+    padding: 10px;
+    color: black;
+}
+
+b{
+    color: #05314F;
+}
+
+/*********** PADDING *********/
+.p-10 {
+    padding: 10px;
+}
+
+.p-20{
+    padding: 20px;
+}
+
+.p_TB-20{
+    padding: 20px 0px;
+}
+
+.p_RL-20{
+    padding: 0px 20px;
+}
+
+/* Estilos adicionales para mejorar la accesibilidad visual, puedes personalizar según sea necesario */
+section {
+    border-bottom: 1px solid #ddd;
+}
+
+/****************************************************************/
+.cajas_titulos {
+    background-color: #05314F;
+    color: white;
+
+    padding: 10px;
+}
+
+.tamano_caja{
+    width: 50%;
+}
+
+ul li{
+    color: #05314F;
+}
+
+ul li ul li{
+    color: black;
+}
